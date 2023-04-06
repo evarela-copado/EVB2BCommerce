@@ -1,0 +1,116 @@
+{
+  "appPageId" : "9700890a-0c4d-46bf-89ce-d6be5f5a7ec9",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "f1348e6e-7c8e-4697-b890-67ab3324d988",
+  "label" : "Address List",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"b6f0fd38-0d1c-4083-889c-17c2937ae852\",\"columns\":[{\"UUID\":\"c1f8964f-0aae-4f3c-8623-5419fc4d722b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"10\",\"seedComponents\":null},{\"UUID\":\"c00e1d76-367e-4d10-bcc9-d8519ff7acbb\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"2\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "b6f0fd38-0d1c-4083-889c-17c2937ae852",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "paddingHorizontal" : "small",
+            "paddingVertical" : "xx-small",
+            "text" : "Address Management",
+            "textAlign" : "left",
+            "textDecoration" : "{\"bold\": true}",
+            "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h2\"}"
+          },
+          "componentName" : "dxp_base:textBlock",
+          "id" : "99b0c983-0e19-40f5-b4dc-8ae20339f6c9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c1f8964f-0aae-4f3c-8623-5419fc4d722b",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "alignment" : "right",
+            "size" : "standard",
+            "text" : "Add Address",
+            "variant" : "primary",
+            "width" : "standard"
+          },
+          "componentName" : "commerce_my_account:myAccountAddAddressButton",
+          "id" : "3b817160-573f-4370-b6c8-988251955588",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c00e1d76-367e-4d10-bcc9-d8519ff7acbb",
+        "regionLabel" : "Column 2",
+        "regionName" : "col2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"b7381d44-5d0e-42a4-aaa8-e8992981a6aa\",\"columns\":[{\"UUID\":\"57b8855e-7456-4313-bc69-2ba094c06bdb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "b7381d44-5d0e-42a4-aaa8-e8992981a6aa",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "billingTabLabel" : "Billing",
+            "cardDefaultBadgeColor" : "rgb(201,201, 201)",
+            "cardDefaultBorderRadius" : "50",
+            "cardDefaultLabel" : "Default",
+            "footerDeleteLabel" : "Delete",
+            "footerEditLabel" : "Edit",
+            "itemSpacing" : "small",
+            "noAddressMessageText" : "You don't have any address yet",
+            "noAddressMessageTitle" : "No Address Yet",
+            "pageSize" : "10",
+            "shippingTabLabel" : "Shipping",
+            "showAddressType" : "Shipping and billing",
+            "showMoreButtonAlign" : "center",
+            "showMoreButtonLabel" : "Show More",
+            "showMoreButtonSize" : "standard",
+            "showMoreButtonStyle" : "secondary",
+            "showMoreButtonWidth" : "standard"
+          },
+          "componentName" : "commerce_my_account:myAccountAddressGridContainer",
+          "id" : "697272b2-f375-4d68-bdf0-722bb50b5fb1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "57b8855e-7456-4313-bc69-2ba094c06bdb",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "c6fdd172-8bb3-4c89-a342-dcdbb6a6ae66",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "MyAccount",
+  "type" : "view",
+  "viewType" : "addresses"
+}
